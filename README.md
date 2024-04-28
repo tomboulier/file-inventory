@@ -2,19 +2,28 @@
 
 ## Overview
 
-This Rust-based command-line tool efficiently inventories all files and subdirectories within a specified directory, categorizing files by their extensions. It's designed to provide a quick overview of the directory's contents, making it particularly useful for managing and analyzing large collections of files.
+This Rust-based command-line tool efficiently inventories all `.nii.gz` files within a specified directory and its 
+subdirectories. It's designed to provide a quick overview of the directory's contents, making it particularly useful 
+for managing and analyzing large collections of `.nii.gz` files.
 
-## Features
+## Current Features
 
-- **File Counting by Extension**: Counts the number of files for each file extension within the directory and its subdirectories.
-- **Subdirectory Counting**: Tallies the total number of subdirectories within the specified directory.
-- **Recursive Analysis**: Performs a deep analysis by recursively processing all subdirectories to ensure a comprehensive inventory.
+- **`.nii.gz` File Counting**: Counts the number of `.nii.gz` files within the directory and its subdirectories.
+- **Recursive Analysis**: Performs a deep analysis by recursively processing all subdirectories to ensure a 
+  comprehensive inventory.
+
+## Future Features
+
+- **File Counting by Extension**: Counts the number of files for each file extension within the directory and its 
+  subdirectories. (Planned)
+- **Subdirectory Counting**: Tallies the total number of subdirectories within the specified directory. (Planned)
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have Rust installed on your machine. If not, follow the installation instructions on the [official Rust website](https://www.rust-lang.org/tools/install).
+Ensure you have Rust installed on your machine. If not, follow the installation instructions on the 
+[official Rust website](https://www.rust-lang.org/tools/install).
 
 ### Installation
 
